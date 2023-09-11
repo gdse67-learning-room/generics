@@ -8,6 +8,7 @@ package exercise;
 public class Main {
     public static void main(String[] args) {
 //        new Sample<Float, String, Boolean, Character>()
-        new Sample<String, Integer, Animal, Double>();
+        Sample<String, Integer, Animal, Double> sample =
+                new Sample<String, Integer, Animal, Double>("Hello", 10, new Animal(), 10.5);
     }
 }
