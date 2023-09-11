@@ -13,11 +13,14 @@ public class Main {
         CommonClass<Integer> icc = new CommonClass<Integer>(10);
         icc.print();
 
-        CommonClass<String> scc = new CommonClass<String>("Danuja");
+        CommonClass<String> scc = new CommonClass<>("Danuja");
         scc.print();
 
-        CommonClass<Boolean> bcc = new CommonClass<Boolean>(10 > 5);
+        CommonClass<Boolean> bcc = new CommonClass<>(10 > 5);
         bcc.print();
+
+        CommonClass<Student> stcc = new CommonClass<>(new Student());
+        stcc.print();
 
         abc(10);
 
