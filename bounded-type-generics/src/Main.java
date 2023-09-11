@@ -8,19 +8,19 @@ public class Main {
         NumericClass<Integer> icc = new NumericClass<>(10);
         icc.print();
 
-        NumericClass<String> scc = new NumericClass<>("Danuja");
-        scc.print();
+        /*NumericClass<String> scc = new NumericClass<>("Danuja");
+        scc.print();*/
 
         NumericClass<Double> dcc = new NumericClass<>(10.5);
-        scc.print();
+        dcc.print();
 
-        NumericClass<Student> stcc = new NumericClass<>(new Student());
-        stcc.print();
+        /*NumericClass<Student> stcc = new NumericClass<>(new Student());
+        stcc.print();*/
 
         NumericClass<Float> fcc = new NumericClass<>(10.5f);
         fcc.print();
 
-        NumericClass<Boolean> bcc = new NumericClass<>(true);
-        bcc.print();
+        /*NumericClass<Boolean> bcc = new NumericClass<>(true);
+        bcc.print();*/
     }
 }
