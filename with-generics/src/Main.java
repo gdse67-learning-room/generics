@@ -4,6 +4,11 @@
 */
 
 public class Main {
+
+    public static void abc(int x) {    //values
+
+    }
+
     public static void main(String[] args) {
         CommonClass<Integer> icc = new CommonClass<Integer>(10);
         icc.print();
@@ -13,5 +18,8 @@ public class Main {
 
         CommonClass<Boolean> bcc = new CommonClass<Boolean>(10 > 5);
         bcc.print();
+
+        abc(10);
+
     }
 }

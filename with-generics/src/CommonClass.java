@@ -3,7 +3,7 @@
     @created 9/11/23 - 2:14 PM   
 */
 
-public class CommonClass <T> {
+public class CommonClass <T> {  //type parameter
     T obj;
 
     public CommonClass(T obj) {
